@@ -1,0 +1,41 @@
+###obtener una pelicula
+
+GET http://localhost:5001
+
+
+###obtener usuarios
+GET http://localhost:5001/getusuarios
+
+
+
+###obtener un usuario por id
+GET http://localhost:5001/getOneusuarios/5
+
+
+
+###filtrar registros por ciudad
+GET http://localhost:5001/getFiltrarCiudades/Medellin
+
+
+###insertar un nuevo usuario
+POST http://localhost:5001/insertarUsuario
+Content-Type: application/json
+
+{
+    "nombre": "pepe",
+    "apellido": "pepito",
+    "ciudad": "cartago"
+}
+
+
+###actualizar el usuario por id
+PUT http://localhost:5001/actualizarUsuario/3
+Content-Type: application/json
+
+{
+    "nombre": "juliancito"
+}
+
+
+###ELIMINAR UN USUARIO POR ID
+DELETE http://localhost:5001/eliminarUsuario/5

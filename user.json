@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "david",
+    "apellido": "moreno",
+    "ciudad": "Medellin"
+  },
+  {
+    "id": 2,
+    "nombre": "maicol",
+    "apellido": "loaiza",
+    "ciudad": "Medellin"
+  },
+  {
+    "id": 3,
+    "nombre": "julian",
+    "apellido": "mendoza",
+    "ciudad": "Bogota"
+  },
+  {
+    "id": 4,
+    "nombre": "valentina",
+    "apellido": "castaño",
+    "ciudad": "Bogota"
+  },
+  {
+    "id": 5,
+    "nombre": "mariana",
+    "apellido": "lopez",
+    "ciudad": "Manizales"
+  }
+]
